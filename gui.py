@@ -17,7 +17,7 @@ class ChatGUI:
         """Initializes the GUI window, widgets, and chatbot model."""
 
         self.root = tk.Tk()
-        self.root.title("PayPal AI Assistant")
+        self.root.title("AI Assistant")
         self.root.geometry("550x800")
 
         # Configure main frame for layout
