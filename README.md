@@ -1,11 +1,3 @@
-├── gui.py
-└── README.md
-
-
-from gui import ChatGUI
-
-if __name__ == "__main__":
-    ChatGUI()
 
 # AI Assistant
 
