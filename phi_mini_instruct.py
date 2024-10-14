@@ -79,11 +79,11 @@ class PhiMiniInstructModel:
         formated_input = self._prepare_input(user_input)
         output = self.pipe(formated_input, **self.generation_args)
         response = output[0]['generated_text'].strip()
-        response = response.replace("I'm Phi", "I'm PayPal AI Assistant")
-        response = response.replace(' Phi ', ' PayPal AI Assistant ')
-        response = response.replace(' Phi.', ' PayPal AI Assistant.')
-        response = response.replace(' Phi,', ' PayPal AI Assistant.')
-        response = response.replace('Microsoft', 'PayPal')
+        response = response.replace("I'm Phi", "I'm AI Assistant")
+        response = response.replace(' Phi ', ' AI Assistant ')
+        response = response.replace(' Phi.', ' AI Assistant.')
+        response = response.replace(' Phi,', ' AI Assistant.')
+        response = response.replace('Microsoft', 'AI Assistant')
         
         return response #self.sumarize_reponse(response)
 
